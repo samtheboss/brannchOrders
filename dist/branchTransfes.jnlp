@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="branchTransfes.jnlp">
+  <information>
+    <title>branchTransfes</title>
+    <vendor>samue</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="branchTransfes.jar" size="28031" download="eager" />
+    <jar href="lib\db2jcc4-10.1.jar" size="3714904" download="eager" />
+    <jar href="lib\mssql-jdbc-12.2.0.jre8.jar" size="1440368" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="branchTransfes" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="branchtransfes.BranchTransfes"  name="branchTransfes" />
+  <update check="always"/>
+</jnlp>
